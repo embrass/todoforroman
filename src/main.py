@@ -1,5 +1,5 @@
 #uvicorn src.main:app --reload
-from fastapi import APIRouter, Depends, HTTPException, status, FastAPI
+from fastapi import FastAPI
 from src.routers import tasks
 
 app = FastAPI()
